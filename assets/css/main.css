@@ -1,0 +1,126 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-size: 100% ;
+    }
+
+.header {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+header {
+    color: white;
+    background-color:  rgba(0, 0, 0, 0.685);
+    width: 80%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.user p {
+    text-align: center;
+    border-radius: 1px;
+    color: white;
+}
+
+.input {
+    border-radius: 5px;
+}
+input {
+    background-color: rgba(247, 247, 247, 0.26);
+    color: white;
+}
+input:hover{
+    color: white;
+    background-color: #FF33FF ;
+}
+.user {
+    display: flex;
+    align-items: flex-end;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.back {
+    position: absolute;
+    width: 10%;
+    background-color:  rgba(0, 0, 0, 0.685);
+    color: white;
+    text-align: center;
+    padding: 0;
+    height: 79.5px;   
+}
+
+.back a {
+    justify-content: center;
+    padding: 25px 0px 25px 40px;
+    border-radius: 5px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+/*comienza el cuerpo*/
+
+.main {
+    display: flex;
+    background-color: rgba(219, 218, 218, 0.205);
+    width: 100%;
+    height: auto;
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+.colleft {
+    display: center ;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.685);
+    box-shadow: 800px ;
+    
+}
+
+.colleft a {
+    border: solid 0.5px  rgba(240, 19, 203, 0.116);
+}
+
+
+a{
+    padding: 5px 30px 0px 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0.5px 0.5px rgba(240, 19, 203, 0.527); */
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;   
+}
+
+a:visited {
+    color:rgb(255, 255, 255);
+    text-decoration: none; 
+}
+
+a:hover {
+    color:rgb(255, 255, 255);
+    background: #ff00cc;  
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc); 
+    background: linear-gradient(to right, #333399, #ff00cc); 
+    box-shadow: 5px 1px  #01c4ff;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(240, 19, 203, 0.205); */
+    padding: 0 10px 0 10px;
+}
